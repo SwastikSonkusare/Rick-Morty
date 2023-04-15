@@ -1,0 +1,22 @@
+.paginate {
+    max-width: 500px;
+    margin: 2rem auto;
+}
+
+.paginate__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.paginate__container div {
+    list-style: none;
+}
+
+.paginate__container div span {
+    text-decoration: none;
+    color: #FFEA20;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
